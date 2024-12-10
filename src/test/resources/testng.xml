@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite TestNG x Selenium">
+  <test verbose="0" name="Firt My Test">
+    <classes>
+    <class name="com.bda.GetAllCart" />
+      <class name="com.bda.GetSingleCart" />
+      <class name="com.bda.LimitResult" />
+      <class name="com.bda.SortResult" />
+      <class name="com.bda.GetUserCart" />
+      <class name="com.bda.AddNewCart" />
+      <!-- <class name="com.bda.GetAllCart" /> -->
+    </classes>
+  </test>
+</suite>
