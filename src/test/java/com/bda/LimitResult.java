@@ -17,14 +17,14 @@ public class LimitResult {
     @Test
     public void testGetLimitResult() {
         System.out.println("================================");
-        System.out.println("Get Cart with Limit");
+        System.out.println("Limit Result");
 
         int limit = 2;
           Response response = RestAssured.given()
             .queryParam("limit", limit)
             .when()
             .get("/carts");
-        System.out.println("Response: " + response.prettyPrint());
+        // System.out.println("Response: " + response.prettyPrint());
         
         
         int statusCode = response.getStatusCode();
@@ -33,6 +33,7 @@ public class LimitResult {
 
         int resultSize = response.jsonPath().getList("$").size();
         Assert.assertEquals(resultSize, limit, "Jumlah hasil tidak sesuai dengan limit!");
+        System.out.println("Assertion passed: Total Data is match with expected");
     }
     
 }

@@ -18,12 +18,12 @@ public class GetUserCart {
     }
 
     @Test
-    public void testGetSingleCart() {
+    public void testGetUserCart() {
         System.out.println("================================");
         System.out.println("Get User Cart");
         int userId = 2;
         Response response = RestAssured.given().contentType(ContentType.JSON).get("/carts/user/" + userId);
-        System.out.println("Response: " + response.prettyPrint());
+        // System.out.println("Response: " + response.prettyPrint());
         
         
         int statusCode = response.getStatusCode();

@@ -9,7 +9,7 @@
       <class name="com.bda.SortResult" />
       <class name="com.bda.GetUserCart" />
       <class name="com.bda.AddNewCart" />
-      <!-- <class name="com.bda.GetAllCart" /> -->
+      <class name="com.bda.UpdateCart" />
     </classes>
   </test>
 </suite>

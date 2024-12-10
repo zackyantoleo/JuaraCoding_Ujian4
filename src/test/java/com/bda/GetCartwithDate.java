@@ -17,7 +17,7 @@ public class GetCartwithDate {
     }
 
     @Test
-    public void testGetLimitResult() {
+    public void testGetCartwithDate() {
         System.out.println("================================");
         System.out.println("Get Cart with Date");
 

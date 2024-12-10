@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.652" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.931" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\athif\AppData\Local\Temp\surefire16746164655656310271\surefirebooter-20241210162248039_3.jar C:\Users\athif\AppData\Local\Temp\surefire16746164655656310271 2024-12-10T16-22-47_911-jvmRun1 surefire-20241210162248039_1tmp surefire_0-20241210162248039_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\athif\AppData\Local\Temp\surefire17192594355748100750\surefirebooter-20241210222029910_3.jar C:\Users\athif\AppData\Local\Temp\surefire17192594355748100750 2024-12-10T22-20-29_751-jvmRun1 surefire-20241210222029910_1tmp surefire_0-20241210222029910_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\athif\Desktop\QA\ujianJC_REST_Assured\RestTest\target\test-classes;C:\Users\athif\Desktop\QA\ujianJC_REST_Assured\RestTest\target\classes;C:\Users\athif\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\athif\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\athif\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\athif\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\athif\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\athif\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\athif\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\athif\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\athif\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\athif\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\athif\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\athif\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\athif\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\athif\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\athif\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\athif\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\athif\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\athif\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\athif\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\athif\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\athif\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\athif\AppData\Local\Temp\surefire16746164655656310271\surefirebooter-20241210162248039_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\athif\AppData\Local\Temp\surefire17192594355748100750\surefirebooter-20241210222029910_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -56,110 +56,28 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testGetAllCart" classname="com.bda.GetAllCart" time="2.008">
+  <testcase name="testGetAllCart" classname="com.bda.GetAllCart" time="1.615">
     <system-out><![CDATA[[Configuration] [WARN] Detected a static method [com.bda.SortResult.setup()]. Static configuration methods can cause  unexpected behavior.
 ================================
 Get all cart
 Assertion passed: Status code is 200
 ]]></system-out>
   </testcase>
-  <testcase name="testGetSingleCart" classname="com.bda.GetSingleCart" time="0.836">
+  <testcase name="testGetSingleCart" classname="com.bda.GetSingleCart" time="1.343">
     <system-out><![CDATA[================================
 Get Single Cart
 Assertion passed: Status code is 200
+Assertion passed: Cart ID is Expected
 ]]></system-out>
   </testcase>
-  <testcase name="testGetLimitResult" classname="com.bda.LimitResult" time="1.134">
+  <testcase name="testGetLimitResult" classname="com.bda.LimitResult" time="0.862">
     <system-out><![CDATA[================================
-Get Cart with Limit
-[
-    {
-        "id": 1,
-        "userId": 1,
-        "date": "2020-03-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 4
-            },
-            {
-                "productId": 2,
-                "quantity": 1
-            },
-            {
-                "productId": 3,
-                "quantity": 6
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 2,
-        "userId": 1,
-        "date": "2020-01-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 2,
-                "quantity": 4
-            },
-            {
-                "productId": 1,
-                "quantity": 10
-            },
-            {
-                "productId": 5,
-                "quantity": 2
-            }
-        ],
-        "__v": 0
-    }
-]
-Response: [
-    {
-        "id": 1,
-        "userId": 1,
-        "date": "2020-03-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 4
-            },
-            {
-                "productId": 2,
-                "quantity": 1
-            },
-            {
-                "productId": 3,
-                "quantity": 6
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 2,
-        "userId": 1,
-        "date": "2020-01-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 2,
-                "quantity": 4
-            },
-            {
-                "productId": 1,
-                "quantity": 10
-            },
-            {
-                "productId": 5,
-                "quantity": 2
-            }
-        ],
-        "__v": 0
-    }
-]
+Limit Result
 Assertion passed: Status code is 200
+Assertion passed: Total Data is match with expected
 ]]></system-out>
   </testcase>
-  <testcase name="testSortResult" classname="com.bda.SortResult" time="1.339">
+  <testcase name="testSortResult" classname="com.bda.SortResult" time="0.909">
     <system-out><![CDATA[[
     {
         "id": 1,
@@ -276,9 +194,25 @@ Assertion passed: Status code is 200
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testAddNewCart" classname="com.bda.AddNewCart" time="0.463">
+  <testcase name="testGetUserCart" classname="com.bda.GetUserCart" time="0.77">
+    <system-out><![CDATA[================================
+Get User Cart
+Assertion passed: Status code is 200
+User ID in response: 2
+]]></system-out>
+  </testcase>
+  <testcase name="testAddNewCart" classname="com.bda.AddNewCart" time="0.801">
     <system-out><![CDATA[================================
 Add new cart
+Assertion passed: Cart ID is not null
+Assertion passed: Date is not null
+Assertion passed: User ID matches
+Assertion passed: Products list is not empty
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateCart" classname="com.bda.UpdateCart" time="0.725">
+    <system-out><![CDATA[================================
+Update Cart
 Assertion passed: Cart ID is not null
 Assertion passed: Date is not null
 Assertion passed: User ID matches

@@ -1,5 +1,8 @@
 com\bda\AddNewCart.class
 com\bda\LimitResult.class
 com\bda\GetSingleCart.class
+com\bda\GetUserCart.class
+com\bda\GetCartwithDate.class
+com\bda\UpdateCart.class
 com\bda\SortResult.class
 com\bda\GetAllCart.class
